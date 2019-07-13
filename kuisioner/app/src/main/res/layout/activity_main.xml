@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+    <ImageView
+        android:layout_width="1500dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kuisioner"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:shadowColor="#00FFFF"
+        android:text="Formulir Survei Pelanggan"
+        android:textColor="#87CEFA"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/ic_people_black_24dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTintMode="@color/colorPrimary"
+                    android:hint="Username"
+                    android:textSize="12dp"
+                    android:inputType="textEmailAddress"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/ic_vpn_key_black_24dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTintMode="@color/colorPrimary"
+                    android:hint="Password"
+                    android:textSize="12dp"
+                    android:inputType="textPassword"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#87CEFA"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:text="Login"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="243dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="Belum punya akun? daftar disini"
+            android:textAllCaps="false"
+            android:textColor="#2c3e50"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

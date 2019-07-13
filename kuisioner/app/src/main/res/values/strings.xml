@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="radio_ya">Ya</string>
+    <string name="radio_tidak">Tidak</string>
+    <string name="pertanyaan">1. Apakah ini pertama kalinya anda menggunakan produk dan layanan kami?</string>
+    <string name="radio_ya2">Ya</string>
+    <string name="radio_tidak2">Tidak</string>
+    <string name="pertanyaan2">2. Apakah anda menyarankan kepada teman dan kolega anda?</string>
+    <string name="radio_ya3">Puas</string>
+    <string name="radio_kurang">Kurang </string>
+    <string name="radio_tidak3">Tidak Puas</string>
+    <string name="pertanyaan3">3. Seberapa puaskah anda dengan perusahaan kami secara keseluruhan?</string>
+    <string name="pertanyaan4">4. Apakah anda punya saran untuk meningkatkan layanan kami?</string>
+</resources>
